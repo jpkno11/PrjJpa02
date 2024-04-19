@@ -53,7 +53,7 @@ public class ArticleController {
 	// 2번 방법. sts 설정 추가 
 	// 프로젝트 -> properties  -> Java Compiler -> 
 	// -> ✅ project specific settings 체크
-	// -> ✅ store infomation ... 체크
+	// -> ✅ store infomation ..... 체크
 	
 	// No default constructor for entity 'com.green.entity.Article' 
 	// Article 에 @NoArgsConstructor  추가
