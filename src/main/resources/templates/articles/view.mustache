@@ -1,0 +1,53 @@
+{{>layouts/header}}
+ 
+<!-- 부트스트랩 table 참고 https://getbootstrap.kr/docs/5.1/content/tables/ -->
+<!-- 머스태치 문법 : https://bibi6666667.tistory.com/269 -->
+ <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Title</th>
+      <th scope="col">Content</th>      
+    </tr>
+  </thead>
+  <tbody>
+    {{! 주석입니다 }}
+    {{! #article }}
+    <tr>
+      <th scope="row">{{ article.id }}</th>
+      <td>{{ article.title }}</td>
+      <td>{{ article.content }}</td>     
+    </tr>   
+    {{! /article}}
+  </tbody>
+</table>
+
+<a href="/articles/List">목록</ㅁ>   
+<a href="/articles/WriteForm">새 글쓰기</ㅁ>   
+<a href="/articles/{{id}}/EditForm">수정</ㅁ>   
+<a href="/articles/{{id}}/Delete">삭제</ㅁ>   
+      
+{{>layouts/footer}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
